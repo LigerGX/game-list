@@ -1,0 +1,23 @@
+:root {
+	--colour-text: #0f110e;
+	--colour-background: #f2faf2;
+	--colour-primary: #7fac67;
+	--colour-secondary: #abd297;
+	--colour-accent: #8fce6d;
+}
+
+html,
+body {
+	background-color: var(--colour-background);
+	color: var(--colour-text);
+	font-family: 'Palanquin';
+}
+
+.site-header {
+	background-color: var(--colour-primary);
+}
+
+.site-header > h1 {
+	margin: 0;
+	padding: 16px 12px;
+}
